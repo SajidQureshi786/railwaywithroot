@@ -2,7 +2,7 @@ FROM vital987/vubuntu:latest
 
 ENV DEBIAN_FRONTEND=noninteractive \
 #VNC Server Password
-	VNC_PASS="samplepass" \
+	VNC_PASS="" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Vubuntu" \
 #VNC Resolution(720p is preferable)
